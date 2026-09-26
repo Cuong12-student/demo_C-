@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddTransient<@demo_CI_CD.Services.IMessageService,@demo_CI_CD.Services.EmailMessageService>();
+builder.Services.AddTransient<@demo_CI_CD.Services.IMessageService,@demo_CI_CD.Services.MessageService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
